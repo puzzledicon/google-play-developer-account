@@ -1,43 +1,63 @@
 <!doctype html>
 <html lang="zh-CN"><head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>如何开通 Google Play 应用内购买（总览） · Google Play 开发者账号指南</title>
-<meta name="description" content="如何开通 Google Play 应用内购买（总览）"/>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>如何开通 Google Play 应用内购买（总览）｜Google Play 开发者账号</title>
+<meta name="description" content="如何开通 Google Play 应用内购买（总览）。涵盖Google Play 开发者账号相关的注册、验证、内购开通与上架准备要点，便于对照 Google / Apple 后台操作。"/>
+<meta name="keywords" content="谷歌开发者账号, Google Play开发者账号, 如何注册谷歌开发者账号, Play Console注册, 开发者身份验证, 付款资料, 开通内购, Google Play Billing, 个人开发者账号, 组织开发者账号, D-U-N-S, 应用上架准备"/>
+<meta name="author" content="puzzledicon"/>
+<meta property="og:title" content="如何开通 Google Play 应用内购买（总览）"/>
+<meta property="og:description" content="如何开通 Google Play 应用内购买（总览）。涵盖Google Play 开发者账号相关的注册、验证、内购开通与上架准备要点，便于对照 Google / Apple 后台操作。"/>
+<meta property="og:type" content="article"/>
+<meta name="twitter:card" content="summary"/>
 <link rel="stylesheet" href="../assets/style.css"/>
 </head><body><div class="wrap">
 <div class="top">
-  <a class="brand" href="../index.html">开发者指南 · <span>Google Play 开发者账号指南</span></a>
+  <a class="brand" href="../index.html">Dev Guides · <span>Google Play 开发者账号</span></a>
   
   <nav class="nav">
-    <a href="https://playconsoleacc.com/" target="_blank" rel="noopener">延伸阅读</a>
-    <a href="https://dev388.com/" target="_blank" rel="noopener">更多指南</a>
+    <a href="https://playconsoleacc.com/" target="_blank" rel="noopener">指南站</a>
+    <a href="https://dev388.com/" target="_blank" rel="noopener">流程笔记</a>
+    <a href="https://t.me/M6999" target="_blank" rel="noopener">@M6999</a>
   </nav>
 
 </div>
 
-        <p class="badge">Google Play 开发者账号指南</p>
-        <h1>如何开通 Google Play 应用内购买（总览）</h1>
-        <div class="hero"><p>下面按「如何做」整理要点，便于对照官方后台逐步完成。</p></div>
-        <div class="content"><h2>操作要点</h2><ul class="check"><li>顺序建议：付款资料 → 商家信息 → 创建应用商品 → 接入结算库 → 许可测试。</li><li>免费应用也可以开启内购；付费下载与内购是不同配置。</li><li>商品 ID 一旦发布需谨慎变更，建议命名规范从一开始定好。</li><li>客户端必须使用官方 Play 结算库发起购买流程。</li><li>上架前用许可测试账号完整走通购买、确认与取消路径。</li></ul></div>
-        <p><a href="../index.html">← 返回目录</a></p>
-        
+    <p class="crumb"><a href="../index.html">目录</a> / 如何开通 Google Play 应用内购买（总览）</p>
+    <span class="badge">Google Play 开发者账号</span>
+    <div class="hero">
+      <div class="kicker">How-to Guide</div>
+      <h1>如何开通 Google Play 应用内购买（总览）</h1>
+      <p class="lead">按步骤理解关键动作：准备材料、后台配置、验证通过，再到内购与发布衔接。</p>
+      <div class="keywords"><span>谷歌开发者账号</span><span>Google Play开发者账号</span><span>如何注册谷歌开发者账号</span><span>Play Console注册</span><span>开发者身份验证</span><span>付款资料</span><span>开通内购</span><span>Google Play Billing</span></div>
+    </div>
+    <div class="content">
+      <h2>操作要点</h2>
+      <ul class="check"><li>顺序建议：付款资料 → 商家信息 → 创建应用商品 → 接入结算库 → 许可测试。</li><li>免费应用也可以开启内购；付费下载与内购是不同配置。</li><li>商品 ID 一旦发布需谨慎变更，建议命名规范从一开始定好。</li><li>客户端必须使用官方 Play 结算库发起购买流程。</li><li>上架前用许可测试账号完整走通购买、确认与取消路径。</li></ul>
+    </div>
+    <p style="margin-top:1rem"><a href="../index.html">← 返回 Google Play 开发者账号 目录</a></p>
+
 
 <section class="cta">
-  <strong>想看更完整的图文步骤？</strong>
-  <p style="color:var(--muted);margin:.45rem 0 0">本页整理公开流程要点。更细的材料清单与截图说明，可在中文指南站对照阅读；实际操作仍以 Google / Apple 官方页面为准。</p>
+  <strong>继续深入阅读</strong>
+  <p style="color:var(--muted);margin:.45rem 0 0">本页梳理注册、验证、内购与上架等常见路径。更完整的图文步骤可在指南站对照；操作时请以 Google Play Console / App Store Connect 当前页面为准。</p>
   <div class="btns">
-    <a class="btn" href="https://playconsoleacc.com/" target="_blank" rel="noopener">阅读中文指南 A</a>
-    <a class="btn sec" href="https://dev388.com/" target="_blank" rel="noopener">阅读中文指南 B</a>
-  </div>
-</section>
-<section class="contacts">
-  <div class="card">
-    <h3>延伸阅读</h3>
-    <p>准备注册、验证或开通内购时，可将下列整理与官方帮助中心交叉核对。</p>
-    <p><a href="https://playconsoleacc.com/" target="_blank" rel="noopener">playconsoleacc.com</a><br>
-    <a href="https://dev388.com/" target="_blank" rel="noopener">dev388.com</a></p>
+    <a class="btn" href="https://playconsoleacc.com/" target="_blank" rel="noopener">阅读完整指南</a>
+    <a class="btn sec" href="https://dev388.com/" target="_blank" rel="noopener">查看流程笔记</a>
+    <a class="btn tg" href="https://t.me/M6999" target="_blank" rel="noopener">TG @M6999</a>
   </div>
 </section>
 
-<div class="footer">本文为公开流程学习笔记。费用、材料与审核结果以平台实时页面为准。</div>
+
+<section class="contact">
+  <h3>需要一对一协助？</h3>
+  <p style="color:var(--muted);margin:.4rem 0 0">注册、验证、内购开通或上架准备有疑问时，可通过 Telegram 咨询。</p>
+  <div class="btns">
+    <a class="btn tg" href="https://t.me/M6999" target="_blank" rel="noopener">联系客服 @M6999</a>
+    <a class="btn sec" href="https://playconsoleacc.com/" target="_blank" rel="noopener">中文指南站</a>
+    <a class="btn sec" href="https://dev388.com/" target="_blank" rel="noopener">更多流程说明</a>
+  </div>
+</section>
+
+<div class="footer">内容用于开发者账号注册、身份验证、内购开通与应用上架的流程对照。费用、材料与审核结果以平台实时页面为准。</div>
 </div></body></html>
