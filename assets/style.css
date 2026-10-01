@@ -1,0 +1,25 @@
+
+:root{--bg:#0f1419;--panel:#1a222c;--text:#e8eef4;--muted:#93a4b5;--accent:#3dd6c6;--line:#2a3644;--card:#15202b}
+*{box-sizing:border-box}body{margin:0;font-family:"PingFang SC","Noto Sans SC",sans-serif;background:radial-gradient(1000px 500px at 0% -10%,#1b3a44,transparent 55%),var(--bg);color:var(--text);line-height:1.7}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{width:min(880px,calc(100% - 2rem));margin:0 auto;padding:2rem 0 4rem}
+.top{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:1.2rem}
+.brand{font-weight:700;color:#fff}.brand span{color:var(--accent)}
+.nav a{color:var(--muted);margin-left:.8rem;font-size:.92rem}
+.hero{background:linear-gradient(145deg,rgba(61,214,198,.12),rgba(91,159,212,.08));border:1px solid var(--line);border-radius:16px;padding:1.3rem 1.4rem;margin:1rem 0}
+h1{font-size:clamp(1.35rem,3vw,1.9rem);line-height:1.25;margin:.2rem 0 .6rem}
+h2{margin:1.6rem 0 .7rem;font-size:1.2rem}h3{margin:1.2rem 0 .5rem;font-size:1.05rem}
+p,li{color:var(--muted)}.content p,.content li{color:#c9d6e2}
+.badge{display:inline-block;font-size:.75rem;padding:.15rem .5rem;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.cta{margin:1.5rem 0;padding:1.1rem 1.2rem;border-radius:14px;border:1px solid var(--line);background:linear-gradient(120deg,rgba(61,214,198,.15),rgba(91,159,212,.1))}
+.btns{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:.7rem}
+.btn{display:inline-block;padding:.55rem .9rem;border-radius:10px;background:var(--accent);color:#06201d;font-weight:700;text-decoration:none}
+.btn.sec{background:transparent;color:var(--text);border:1px solid var(--line)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem;margin:.6rem 0}
+.list a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem;margin:.55rem 0;color:inherit}
+.list a:hover{border-color:var(--accent);text-decoration:none}
+.list strong{display:block;color:#fff;margin-bottom:.2rem}
+.footer{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+.contacts{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:.8rem;margin:1rem 0}
+ul.check{padding-left:1.1rem}.check li{margin:.35rem 0}
+.content{margin:1rem 0}
