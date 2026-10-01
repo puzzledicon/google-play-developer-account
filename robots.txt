@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://puzzledicon.github.io/google-play-developer-account/sitemap.xml
