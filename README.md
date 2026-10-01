@@ -1,6 +1,6 @@
 # Google Play 开发者账号指南
 
-聚焦如何注册、如何完成验证，以及开通后如何衔接内购与发布准备。
+完整说明如何注册、完成身份与联系方式验证、设置付款资料，以及如何衔接内购开通与发布准备。
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-2ea44f?logo=github)](https://puzzledicon.github.io/google-play-developer-account/)
 

@@ -130,3 +130,9 @@ ul.check { padding-left: 1.15rem; margin: .3rem 0 0; }
   .top { border-radius: 16px; }
   h1 { max-width: none; }
 }
+
+
+ol.steps{margin:.6rem 0 1rem;padding-left:1.2rem;color:var(--text)}
+ol.steps li{margin:.35rem 0;line-height:1.55}
+.content h2{margin-top:1.35rem}
+.content p{color:var(--muted);line-height:1.65;margin:.5rem 0 .8rem}
