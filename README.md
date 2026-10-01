@@ -1,15 +1,12 @@
-# Google Play 开发者账号深度指南
+# Google Play 开发者账号指南
 
-个人/组织选型、注册费、$25、身份验证、带 App 新旧账号
+个人与组织选型、注册、身份验证与账号路径说明
 
-## 引流与客服
+本仓库整理 Google / Apple 开发者相关的公开流程要点，方便对照官方帮助中心阅读。
 
-- AccMart 官网：https://accmart.cc/
-- 六九指南：https://playconsoleacc.com/ · Telegram [@M6999](https://t.me/M6999)
-- 三界指南：https://dev388.com/ · [@dev388](https://t.me/dev388) · 频道 [@dev363](https://t.me/dev363)
+## 延伸阅读
 
-## 本地预览
+- [playconsoleacc.com](https://playconsoleacc.com/)
+- [dev388.com](https://dev388.com/)
 
-打开 `index.html`，或 GitHub Pages（Settings → Pages → Deploy from main `/`）。
-
-非 Google / Apple 关联；以官方文档为准。
+内容非 Google / Apple 关联；政策与费用以官方页面为准。
